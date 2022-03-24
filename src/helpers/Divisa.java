@@ -10,7 +10,7 @@ public class Divisa {
     }
 
     public void setAmount(float amount) {
-        this.amount = amount;
+        this.amount = amount; 
     }
 
     public double getTotal() {

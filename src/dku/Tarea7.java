@@ -170,7 +170,7 @@ public class Tarea7 extends javax.swing.JFrame {
 
     private void convertirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_convertirActionPerformed
 
-        if (numeroOrigen.getSelectedIndex() == 1 && numeroDestino.getSelectedIndex() == 2) {
+        if (numeroOrigen.getSelectedIndex() == 1 && numeroDestino.getSelectedIndex() == 2) {  
             lempira.conversion(Float.parseFloat(cantidad.getText()));
             this.resultado.setText(String.valueOf(lempira.getTotal()));
 
